@@ -1,0 +1,12 @@
+Source: ros-eloquent-kobuki-ros
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-ros-workspace
+Homepage: http://ros.org/wiki/kobuki
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-kobuki-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-ros-workspace
+Description: ROS2 runtime software for Kobuki, Yujin Robot's mobile research base.
